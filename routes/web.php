@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\File;
 Route::get('/', function () {
     $vue_source = File::get(base_path('node_modules/vue/dist/vue.runtime.js'));
     $renderer_source = File::get(base_path('node_modules/vue-server-renderer/basic.js'));
-    $app_source = File::get(resource_path('assets/js/test.js'));
+    $app_source = File::get(public_path('js/entry-server.js'));
 
     $v8 = new V8Js();
 
