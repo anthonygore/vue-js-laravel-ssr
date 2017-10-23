@@ -1,5 +1,4 @@
 {
-    "/js/entry-client.js": "/js/entry-client.js",
-    "/css/app.css": "/css/app.css",
-    "/js/entry-server.js": "/js/entry-server.js"
+    "/js/entry-server.js": "/js/entry-server.js",
+    "/js/entry-client.js": "/js/entry-client.js"
 }
