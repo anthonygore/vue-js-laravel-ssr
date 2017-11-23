@@ -8,6 +8,6 @@
 </head>
 <body>
     {!! $ssr !!}
-    <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('js/entry-client.js') }}" type="text/javascript"></script>
 </body>
 </html>
