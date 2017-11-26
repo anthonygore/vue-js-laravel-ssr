@@ -1,3 +1,3 @@
-import { createApp } from './app'
+import app from './app'
 
-createApp().$mount('#app');
+app.$mount('#app');
